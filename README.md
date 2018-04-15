@@ -1,13 +1,13 @@
 
 HTML Email Template - Smirnoff Nightlife Exchange Project
 ================================
-
 This template is designed to work across all major email platforms. 
 
 
 Preview
 ================================
 Author: https://lukemico.github.io/
+
 Preview (https://smirnoff-nightlife-exchange.herokuapp.com/)
 
 
