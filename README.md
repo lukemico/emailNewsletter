@@ -6,10 +6,9 @@ This template is designed to work across all major email platforms.
 
 Preview
 ================================
-Author: https://lukemico.github.io/
-
 Preview (https://smirnoff-nightlife-exchange.herokuapp.com/)
 
+Author: https://lukemico.github.io/
 
 Inspiration
 ================================
@@ -59,5 +58,5 @@ Tested using www.litmus.com on mobile, desktop and web.
 ![Templates Tested on Email Clients]
 <img src="http://res.cloudinary.com/lukemico/image/upload/v1523801042/Testing_Mobile_vs7z8b.png" width="500">
 
-[See the Litmus test results](https://litmus.com/builder/5dacbe9).
+[See the Litmus test results](https://litmus.com/checklist/emails/public/008299e).
 
