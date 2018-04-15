@@ -1,8 +1,8 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
-        <meta name="viewport" content="width=device-width">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	    <meta name="viewport" content="width=device-width">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="x-apple-disable-message-reformatting">
 
@@ -10,27 +10,46 @@
 
 		<style type="text/css">
 		/* CLIENT-SPECIFIC STYLES */
-		body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Arial, sans-serif;}
-		table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-		img { -ms-interpolation-mode: bicubic; }
-		
-		a { color: #a41e20; text-decoration: none !important; }
-		a:visited { color: #a41e20; }
-		
+		body, table, td, a { 
+			-webkit-text-size-adjust: 100%; 
+			-ms-text-size-adjust: 100%; 
+			font-family: Arial, sans-serif;
+		}
+		table, td { 
+			mso-table-lspace: 0pt; mso-table-rspace: 0pt; 
+		}
+		img { 
+			-ms-interpolation-mode: bicubic; 
+			border: 0; 
+		}
+		a { 
+			color: #a41e20; 
+			text-decoration: none !important; 
+		}
+		a:visited { 
+			color: #a41e20; 
+		}
+		table,
+            td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+            }
+
+    	
 		/* RESET STYLES */
 		img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
 		table { border-collapse: collapse !important; }
 		body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
 		
 		/* Media Queries */
-            @media screen and (max-width: 600px) {
-            .email-container {
+        @media screen and (max-width: 600px) {
+        .email-container {
             width: 100% !important;
             margin: auto !important; 
             }
         }
-        	@media only screen and (max-width: 480px){
-			.email-container{
+        @media only screen and (max-width: 480px){
+		.email-container{
             height:auto !important;
             max-width:600px !important;
             width: 100% !important;
@@ -49,22 +68,22 @@
 		
 		/* MOBILE STYLES */
 		@media screen and (max-width: 600px) {
-		  .img-max {
+		.img-max {
 		    width: 100% !important;
 		    max-width: 100% !important;
 		    height: auto !important;
-		  }
+		}
 		
-		  .max-width {
+		.max-width {
 		    max-width: 100% !important;
 		  }
 		
-		  .mobile-wrapper {
+		.mobile-wrapper {
 		    width: 85% !important;
 		    max-width: 85% !important;
 		  }
 		
-		  .mobile-padding {
+		.mobile-padding {
 		    padding-left: 5% !important;
 		    padding-right: 5% !important;
 		  }
@@ -145,7 +164,7 @@
 		    </tr>
 		</table>    
 				            
-        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" class="email-container" >
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="margin:0; border:0;" class="email-container" >
 		    <tr>
 		        <td align="center" height="100%" valign="top" width="100%">
 		            <!--[if (gte mso 9)|(IE)]>
@@ -154,13 +173,13 @@
 		            <td align="center" valign="top" width="600">
 		            <![endif]-->
 		            
-					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" class="max-width">
+					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="max-width:600px;" >
 					    <tr>
-					        <td bgcolor="#f3f3f3" align="center" valign="top" width="100%" class="templateColumnContainer">
-					            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+					        <td bgcolor="#f3f3f3" align="center" valign="top" width="100%" >
+					            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="328">
 					                <tr>
-					                    <td align="center" valign="top" width="100%" class="templateColumnContainer">
-								            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+					                    <td align="center" valign="top" width="100%" >
+								            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="328">
 								                <tr>
 								                    <td align="center" valign="top" width="328" >
 							                        <!--[if (gte mso 9)|(IE)]>
@@ -169,8 +188,8 @@
 							                        <td align="center" valign="top" width="328">
 							                        <![endif]-->
 					                        
-														<tr style="display:inline-block; max-width:328; vertical-align:top; width:328;" bgcolor="#f3f3f3" class="mobile-wrapper">
-															<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" class="max-width">
+														<tr style="display:inline-block; max-width:328px; vertical-align:top; width:328;" bgcolor="#f3f3f3" class="mobile-wrapper">
+															<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" >
 																<tr>
 																	<td bgcolor="#f3f3f3" align="left" valign="top" width="328" style="font-family: Arial, sans-serif; padding: 0 20px 0 20px;">	
 																		<p style="color: #999999; font-size: 10px; line-height: 12px;">Hi [Name],</p>
@@ -180,7 +199,7 @@
 								                                    </td>
 								                                </tr>
 								                            </table>
-								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" class="max-width">
+								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" >
 								                                <tr>
 								                                    <td bgcolor="#f3f3f3" align="center" valign="top" style="font-family: Arial, sans-serif; padding:0">
 																		 <a href="https://vimeo.com/158164213" >
@@ -188,7 +207,7 @@
 																	</td>
 								                                </tr>
 								                            </table>
-								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" class="max-width">
+								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" >
 								                                <tr>
 								                                    <td bgcolor="#f3f3f3" align="left" valign="top" style="font-family: Arial, sans-serif; padding: 0 20px 0px 20px;">
 																		<p style="color: #999999; font-size: 10px; line-height: 12px;">For the Nightlife Exchange Project, we're on a mission to discover the world's most original nightlife ideas to bring to life. To get involved, visit our Facebook page and answer questions in the Nightlife Exchange Project tab. Some of last year's ideas involved dance floor lasers and mini chunky beef pies.</p>
@@ -196,7 +215,7 @@
 														            </td>
 								                                </tr>
 								                            </table>
-								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" class="max-width">
+								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" >
 								                                <tr>
 								                                    <td bgcolor="#f3f3f3" align="center" valign="top" style="font-family: Arial, sans-serif; padding: 0">
 																		 <a href="https://www.facebook.com/SmirnoffAustralia" >
@@ -204,7 +223,7 @@
 								                                    </td>
 								                                </tr>
 								                            </table>
-								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" class="max-width">
+								                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="328" style="max-width:328px;" >
 								                                <tr>
 								                                    <td bgcolor="#f3f3f3" align="left" valign="top" style="font-family: Arial, sans-serif; padding: 0 20px 40px 20px;">
 																		<p style="color: #999999; font-size: 10px; line-height: 12px;">We're thrilled to introduce DJ Anna Lunoe as the 2011 ambassador for the Australian chapter of the Nightlife Exchange Project! She's excited about helping our community define what makes Australian nightlife great and about contributing a few ideas of her own. Welcome Anna, it's great to have you on board.</p>
@@ -222,9 +241,8 @@
 											</table>
 								        </td>
 								        
-								        
-								        <td bgcolor="#f3f3f3" align="center" valign="top" width="100%" class="templateColumnContainer">
-								            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+								        <td bgcolor="#f3f3f3" align="center" valign="top" width="272" >
+								            <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="272">
 								                <tr>
 									                <td align="center" valign="top" width="272" style="padding: 14px 14px 0 0">
 									                    <img src="http://res.cloudinary.com/lukemico/image/upload/v1523746972/img_the_best_night_b8jc4c.jpg" width="258" height="94" border="0" style="max-width:258px; display:block;" class="columnImage" alt="Smirnoff - The Best Night" />
@@ -272,7 +290,7 @@
 		            <td align="center" valign="top" width="600">
 		            <![endif]-->
 		
-					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" class="max-width">
+					<table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;" >
 		                <tr>
 		                    <td bgcolor="#f3f3f3" align="center" valign="top" style="font-family: Arial, sans-serif; border-top-style: solid; border-top-color: #cbcbcb; padding: 0 20px 30px 20px;">
 								<p style="color: #a41e20; font-size: 11px; line-height: 13px;">
